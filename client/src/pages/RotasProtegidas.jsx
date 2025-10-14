@@ -1,5 +1,10 @@
+// Importação do navigate pra transitar entre páginas
+// Importando o outlet, do REA
 import { Outlet, Navigate } from "react-router-dom"
+
+// Importação dos componentes do bootstrap
 import Container from "react-bootstrap/Container"
+
 const RotasProtegidas = () => {
   // Variável para saber se está logado ou não
   const estaLogado = true
