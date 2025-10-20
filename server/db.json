@@ -2,24 +2,24 @@
     "usuarios": [
         {
             "id": 1,
-            "nome": "Gregory",
-            "email": "gregory@gmail.com",
+            "nome": "Lara",
+            "email": "Croft@gmail.com",
             "senha": "5",
             "tipo": "Administrador",
-            "imagemUrl": "https://observatoriodocinema.com.br/wp-content/uploads/2021/12/greg-todo-mund-odeia.jpg"
+            "imagemUrl": "https://t.ctcdn.com.br/lEcwiJ747eM0LeybnMM7zaDAMhU=/i490784.jpeg"
         },
         {
             "id": 2,
-            "nome": "Cristiano",
-            "email": "cristiano@gmail.com",
+            "nome": "Batman",
+            "email": "bruce@gmail.com",
             "senha": "7",
             "tipo": "Gerente",
-            "imagemUrl": "https://conteudo.imguol.com.br/c/esporte/d6/2025/04/05/cristiano-ronaldo-durante-jogo-entre-al-hilal-e-al-nassr-no-campeonato-saudita-1743855177331_v2_450x450.jpg"
+            "imagemUrl": "https://img.odcdn.com.br/wp-content/uploads/2024/06/imagem_2024-06-17_151110069-1920x1080.jpg"
         },
         {
             "id": 3,
-            "nome": "Goku",
-            "email": "goku@gmail.com",
+            "nome": "Oskar schindler ",
+            "email": "Oskar@gmail.com",
             "senha": "3",
             "tipo": "Funcionário",
             "imagemUrl": null

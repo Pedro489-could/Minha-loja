@@ -20,7 +20,7 @@ import { useForm } from "react-hook-form";
 import { useState } from "react";
 
 // importação do Navigate para transitar entre as páginas
-import { useNavigate } from "react-hook-form"
+import { useNavigate } from "react-router-dom"
 
 const Login = () => {
   // register = cria um objeto com os valores retirados dos inputs
