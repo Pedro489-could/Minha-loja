@@ -9,6 +9,7 @@ import Container from "react-bootstrap/Container"
 
 import { useContext } from "react";
 import { AuthContext } from "../contexts/UserContext";
+import BarraNavegacao from "../components/BarraNavegacao/BarraNavegacao.jsx";
 
 const RotasProtegidas = () => {
   //Pega a variavel de usuario nome para saber se tem algum logado
@@ -21,8 +22,7 @@ const RotasProtegidas = () => {
     <div className="App d-flex">
      {/* Barra de navegação fixa na lateral */}
      <div className="position-fixed top-0 start-0 min-vh-100 bg-danger">
-        <h1>Usuário logado</h1>
-        <h1>{usuarioNome}</h1>
+        <BarraNavegacao />
      </div>
      {/* Conteúdo principal, dependendo de qual rota está */}
      <div className="d-flex flex-column min-vh-100 flex-grow-1 p-2 justify-content-center"
